@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="ajustes">Setting</string>
+    <string name="api_marvel">The information displayed in this application is official and always be updated, as shown data are collected from the official API Marvel. http://developer.marvel.com/docs</string>
+    <string name="aplicacion_ucam">Application made for the subject "Desarrollo de aplicaciones móviles" off the "Universidad Católica de San Antonio."</string>
+    <string name="bienvenida_marvel">Welcome to Wiki Marvel</string>
+    <string name="buscar">Find</string>
+    <string name="comics">Comics</string>
+    <string name="configuracion">Setting</string>
+    <string name="confirmar_contraseña">Change password</string>
+    <string name="contraseña">Password</string>
+    <string name="crear_cuenta">New Account</string>
+    <string name="creditos">About</string>
+    <string name="error_personajes">Have not been able to load all the characters, try again later</string>
+    <string name="eventos">Events</string>
+    <string name="iniciar_sesion">Log In</string>
+    <string name="listado_heroes">Super Heroes</string>
+    <string name="log">LOG</string>
+    <string name="logear_user">Logear users to enter the application</string>
+    <string name="nombre_user">Username</string>
+    <string name="nuevo_usuario">New User</string>
+    <string name="personajes">Character</string>
+    <string name="realizada_por">Developers: \n\t\tGuillermo Palmero\n\t\tSergio Martín</string>
+    <string name="repro_sonido">Play sound when entering settings</string>
+    <string name="salir">Exit</string>
+    <string name="selec_filtro">Select the sort order</string>
+    <string name="seleccionar_num_heroes">Select the number of characters to show</string>
+    <string name="series"></string>
+    <string name="sonido">Sound</string>
+    <string name="usuario_nuevo">No account?\nClick here</string>
+
+
+    <string-array name="ordenEventos">
+        <item>Name</item>
+        <item>Events date</item>
+        <item>Modification date</item>
+    </string-array>
+    <string-array name="codigoEventos">
+        <item>name</item>
+        <item>startDate</item>
+        <item>modified</item>
+    </string-array>
+
+    <string-array name="ordenComic">
+        <item>Estimated departure date</item>
+        <item>Sale Date</item>
+        <item>Title</item>
+        <item>Comics numbers</item>
+        <item>Modification date</item>
+    </string-array>
+    <string-array name="CodigoComic">
+        <item>-focDate</item>
+        <item>onsaleDate</item>
+        <item>title</item>
+        <item>issueNumber</item>
+        <item>modified</item>
+    </string-array>
+
+    <string-array name="ordenSeries">
+        <item>Title</item>
+        <item>Modification date</item>
+        <item>Year output</item>
+
+    </string-array>
+    <string-array name="codigoSeries">
+        <item>title</item>
+        <item>modified</item>
+        <item>startYear</item>
+    </string-array>
+</resources>

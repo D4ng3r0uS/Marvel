@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="title_activity_navigation" translatable="false">Navigation</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="marvel" translatable="false">Marvel</string>
+    <string name="eventos">Eventos</string>
+    <string name="personajes">Personajes</string>
+    <string name="comics">Comics</string>
+    <string name="series" translatable="false">Series</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="creditos">Acerda de</string>
+    <string name="salir">Salir</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="buscar">Buscar</string>
+    <string name="listado_heroes">Super Heroes</string>
+    <string name="seleccionar_num_heroes">Selecciona el numero de personajes a mostrar</string>
+    <string name="sonido">Sonido</string>
+    <string name="selec_filtro">Selecciona el tipo de ordenación</string>
+    <string name="nombre_user">Nombre de usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="bienvenida_marvel">Bienvenido a la Wiki de Marvel</string>
+    <string name="usuario_nuevo">¿No tienes cuenta?\nClic aqui</string>
+    <string name="confirmar_contraseña">Confirmar Contraseña</string>
+    <string name="nuevo_usuario">Usuario nuevo</string>
+    <string name="repro_sonido">Reproducir sonido al entrar en ajustes</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="logear_user">Logear usuarios al entrar a la aplicacion</string>
+    <string name="aplicacion_ucam">Aplicación realizada para la asignatura de Desarrollo de aplicaciones móviles de la Universidad Católica de San Antonio.</string>
+    <string name="api_marvel">La información mostrada en esta aplicación es oficial y siempre estara actualizada, puesto que los datos mostradas son recogidos de la API oficial de Marvel. http://developer.marvel.com/docs</string>
+    <string name="realizada_por">Desarrolladores: \n\t\tGuillermo Palmero\n\t\tSergio Martín</string>
+    <string name="error_personajes">No se han podido cargar todos los personajes, intentelo mas tarde</string>
+    <string name="log">LOG</string>
+
+    <string-array name="ordenEventos">
+        <item>Nombre</item>
+        <item>Fecha del evento</item>
+        <item>Fecha de modificación</item>
+    </string-array>
+    <string-array name="codigoEventos">
+        <item>name</item>
+        <item>startDate</item>
+        <item>modified</item>
+    </string-array>
+
+
+
+    <string-array name="ordenComic">
+        <item>Fecha estimada de salida</item>
+        <item>Fecha de venta</item>
+        <item>Titulo</item>
+        <item>Numero de comic</item>
+        <item>Fecha de modificación</item>
+    </string-array>
+    <string-array name="CodigoComic">
+        <item>-focDate</item>
+        <item>onsaleDate</item>
+        <item>title</item>
+        <item>issueNumber</item>
+        <item>modified</item>
+    </string-array>
+
+    <string-array name="ordenSeries">
+        <item>Titulo</item>
+        <item>Fecha de modificación</item>
+        <item>Año de salida</item>
+
+    </string-array>
+    <string-array name="codigoSeries">
+        <item>title</item>
+        <item>modified</item>
+        <item>startYear</item>
+    </string-array>
+</resources>

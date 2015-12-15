@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Opciones de Listado">
+        <EditTextPreference
+            android:inputType="number"
+            android:key="heroeMax"
+            android:defaultValue="1000"
+            android:summary="@string/seleccionar_num_heroes"
+            android:title="@string/listado_heroes" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="filtroHeroes"
+            android:summary="Filtra los SuperHeroes a mostrar"
+            android:title="@string/listado_heroes"  />
+
+        <ListPreference
+            android:entries="@array/ordenEventos"
+            android:entryValues="@array/codigoEventos"
+            android:key="OrdenEventos"
+            android:defaultValue="startDate"
+            android:summary="@string/selec_filtro"
+            android:title="@string/eventos" />
+        <ListPreference
+            android:entries="@array/ordenComic"
+            android:entryValues="@array/CodigoComic"
+            android:key="OrdenComic"
+            android:defaultValue="-focDate"
+            android:summary="@string/selec_filtro"
+            android:title="@string/comics" />
+        <ListPreference
+            android:entries="@array/ordenSeries"
+            android:entryValues="@array/codigoSeries"
+            android:key="OrdenSeries"
+            android:defaultValue="startYear"
+            android:summary="@string/selec_filtro"
+            android:title="@string/series" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Opciones del Sistema">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="sonidos"
+            android:summary="@string/repro_sonido"
+            android:title="@string/sonido" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="login"
+            android:summary="@string/logear_user"
+            android:title="@string/login" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
